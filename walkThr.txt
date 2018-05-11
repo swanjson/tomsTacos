@@ -1,0 +1,38 @@
+1. Created Git Repo
+#Also add .gitignore
+	#files in .gitignore:
+		#.DS_Store
+		#yourenvname
+
+2. Created a virtual environment:
+
+
+virutalenv tacosEnv
+source tacosEnv/bin/activate
+pip freeze > requirements.txt
+
+
+
+
+conda create -n yourenvname python=x.x anaconda  #This took a little while. It creates an environment with python, pip, and easy-install
+
+source activate yourenvname  #active virtual environment
+
+source env/bin/activate #adds shortcut so we don't have to type the "env/bin/" everytime
+
+
+#THIS DEACTIVATES#
+deactivate  #deactivate virtual environment
+##
+
+
+3. Track virtualenv additions:
+
+pip freeze > requirements.txt  #Keeps track of packages installed in virtual environment
+
+4. Downloads
+pip install beautifulsoup4
+pip install lxml
+pip install html5lib
+pip install requests
+
