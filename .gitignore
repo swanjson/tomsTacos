@@ -1,4 +1,7 @@
 /tacosEnv
 /instagramPage_files
 /instagramPageFull_files
+credentials.py
+/extraDocumentation
+/__pycache__
 .DS_Store
