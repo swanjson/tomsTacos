@@ -1,21 +1,22 @@
 import json
 import re #used for regular expressions
 import pandas as pd # to convert json to csv
+import toolz
 
 
 #### TODO
-#### REMOVE NEW LINES
-# Handle mentions too
+# Handle mentions and hashtags
+# 159 rating is wrong
 
 with open('tomeatingtacos.json', 'r') as f:
     listOfComments = json.load(f)
 
 
 # print(listOfComments['GraphImages'][0]['edge_media_to_caption']['edges'][0]['node']['text'])
+numberOfPosts = len(listOfComments['GraphImages'])
 
-
-
-comments = [None] * 621
+uniquesArray = []
+comments = [None] * numberOfPosts
 i = 0
 # Goes through each post (621 atm) 
 for entry in listOfComments['GraphImages']:  
@@ -25,7 +26,7 @@ for entry in listOfComments['GraphImages']:
 
 finishDiffs = ['finish ', 'finish.', 'finish#']
 ratingDiffs = ['/10.', '/10 ']
-parsedComments = [None] * 621
+parsedComments = [None] * numberOfPosts
 
 i = 0
 for text in comments:
@@ -57,32 +58,52 @@ for text in comments:
         secondsToFinish = remainingText4.partition('sh#')[0] + remainingText4.partition('sh ')[1]
         secondsToFinish = secondsToFinish.strip()
         leftovers = remainingText4.partition('sh# ')[2]
+    else:
+        secondsToFinish = 'null'
 
 
-    # TEST CASES
-    # if (tacoType == '' or restaurant == '' or cityState == '' or rating == ''):
-    #     print(i)
-        # These are the ones that have something come up blank
-        #148, 428, 485, 504, 567, 570, 575, 582, 587, 588, 589, 590, 591, 619, 620
+
+    ########### TEST CASES ##############
+
+    #Tests if any entry is blank or null, if so send to uniqueHandler
+    if (tacoType == '' or restaurant == '' or cityState == '' or rating == ''):
+        testCaseOutput(i,'rating, cityState, restaurant, or tacoType is blank',uniquesArray)
+
+    #Tests if there are spaces in rating, if so sends to unique handler
     if ' ' in rating:
-        print(i)
+        testCaseOutput(i,'There is a space in the rating',uniquesArray)
 
-        # 3, 38, 63, 95, 99, 105, 121, 139, 150, 159, 170, 171, 172, 184, 198, 259, 266, 268, 286, 290, 333, 341, 358, 398, 405, 435, 482, 490, 514, 523, 528, 533, 536, 539, 551, 569, 572, 574, 580, 604, 606, 609, 610, 612, 613, 614, 615, 616, 617, 618
-        #fixed by stripping rating and seconds to finish
+
+    #Calculates the float of the ratings, if the rating is larger than 10 characters or there isn't a 10 in the rating, send to uniqueHandler
     if len(rating) < 10:
         if '10' in rating:
             ratingEval = eval(rating)
         else:
             ratingEval = None
+            testCaseOutput(i,'There\'s no 10 in the rating',uniquesArray)
     else:
         ratingEval = None
+        testCaseOutput(i,'length of rating is over 10',uniquesArray)
 
-    # Good test would be to check seconds to finish for any ratings
-    # 3,99,121,259,333,551,569,580,604,605,606,607,608,609,610,611,612,613,614,615,617,618,619,620
+    if rating not in text:
+        testCaseOutput(i,'rating is not correct',uniquesArray)
+
+    # if 'seconds to finish' not in secondsToFinish:
+    #     uniquesArray.append(i)
+
+
+    ########### TEST CASES ##############
+    z = 0
+    def testCaseOutput(itemNumber,reasonString,uniquesArray):
+        uniquesArray.append({
+        "id": itemNumber,
+        "failingReason": reasonString
+        })
+                    
 
     parsedComments[i] = {
         "id": i,
-        "post#": 621 - i,
+        "post#": numberOfPosts - i,
         "tacoType": tacoType,
         "restaurant": restaurant,
         "cityState": cityState,
@@ -93,8 +114,21 @@ for text in comments:
     }
     i=i+1 #INCREMENT
 
-# print(json.dumps(parsedComments, indent=4, sort_keys=True))
-# print(json.dumps(listOfComments, indent=4, sort_keys=True))
+
+
+#Below sorts the array to only have unique objects
+toolz.unique(uniquesArray)
+# print(uniquesArray)
+
+#creates array with unique objects that are messed up
+arrayToRemove = [item['id'] for item in uniquesArray]
+arrayToRemove = list(dict.fromkeys(arrayToRemove))
+# print(arrayToRemove)
+
+
+# removes all the things in question ^^ (arrayToRemove)
+parsedComments = [item for item in parsedComments if item['id'] not in arrayToRemove]
+
 
 
 # LIST OF UNIQUES THAT NEED TO BE ORGANIZED
@@ -106,112 +140,22 @@ for text in comments:
 # 619 - restaurant/cityState different characters
 # 620 - restaurant/cityState different characters
 
+with open('commentsFull.json', 'w', encoding='utf8') as json_file:
+    json.dump(comments, json_file, indent=4, ensure_ascii=False)
 
-# print('428\n' + json.dumps(parsedComments[428], indent=4)) #behind the scenes?
-# print('567\n' + json.dumps(parsedComments[567], indent=4)) #highlight clip
-# print('575\n' + json.dumps(parsedComments[575], indent=4)) #highlight clip
-# print('589\n' + json.dumps(parsedComments[589], indent=4)) #restaurant/cityState different characters
-# print('619\n' + json.dumps(parsedComments[619], indent=4)) #restaurant/cityState different characters
-# print('620\n' + json.dumps(parsedComments[620], indent=4)) #restaurant/cityState different characters
-
+with open('errors.json', 'w', encoding='utf8') as json_file:
+    json.dump(uniquesArray, json_file, indent=4, ensure_ascii=False)
 
 with open('breakdown.json', 'w', encoding='utf8') as json_file:
     json.dump(parsedComments, json_file, indent=4, ensure_ascii=False)
 
 
-
-# 3, 38, 63, 95, 99, 105, 121, 139, 150, 159, 170, 171, 172, 184, 198, 259, 266, 268, 286, 290, 333, 341, 358, 398, 405, 435, 482, 490, 514, 523, 528, 533, 536, 539, 551, 569, 572, 574, 580, 604, 606, 609, 610, 612, 613, 614, 615, 616, 617, 618
-
-print('3\n' + json.dumps(parsedComments[3], indent=4)) # still flagged period in location line
-print('63\n' + json.dumps(parsedComments[63], indent=4)) # still flagged switched rating and seconds to finish
-print('99\n' + json.dumps(parsedComments[99], indent=4)) # still flagged Extra Period in citystate
-print('121\n' + json.dumps(parsedComments[121], indent=4)) # still flagged 500th Taco video Extra title line
-print('259\n' + json.dumps(parsedComments[259], indent=4)) # still flagged Period in Taco Name
-print('333\n' + json.dumps(parsedComments[333], indent=4)) # still flagged period in location line
-print('482\n' + json.dumps(parsedComments[482], indent=4)) # still flagged extra location line
-print('551\n' + json.dumps(parsedComments[551], indent=4)) # still flagged extra location line
-print('572\n' + json.dumps(parsedComments[572], indent=4)) # still flagged 2 tacos with 2 ratings and seconds to finish
-print('574\n' + json.dumps(parsedComments[574], indent=4)) # still flagged 2 tacos
-print('569\n' + json.dumps(parsedComments[574], indent=4)) # still flagged 2 tacos w 2 ratings (wasn't auto found)
-print('606\n' + json.dumps(parsedComments[606], indent=4)) # still flagged extra city state line
+# prints single object from parsedComments
+# print(json.dumps(parsedComments[572], indent=4))
+# print(json.dumps(parsedComments[159], indent=4))
 
 
+#converts created json into csv via pandas
 df = pd.read_json('breakdown.json')
 df.to_csv('rankedCSV.csv')
 
-
-
-
-# 3
-# 63
-# 99
-# 121
-# 171
-# 172
-# 259
-# 266
-# 268
-# 333
-# 482
-# 551
-# 572
-# 574
-# 575
-# 606
-# 607
-
-
-
-
-
-
-# 3
-# 38
-# 63
-# 95
-# 99
-# 105
-# 121
-# 139
-# 150
-# 159
-# 170
-# 171
-# 172
-# 184
-# 198
-# 259
-# 266
-# 268
-# 286
-# 290
-# 333
-# 341
-# 358
-# 398
-# 405
-# 435
-# 482
-# 490
-# 514
-# 523
-# 528
-# 533
-# 536
-# 539
-# 551
-# 569
-# 572
-# 574
-# 580
-# 604
-# 606
-# 609
-# 610
-# 612
-# 613
-# 614
-# 615
-# 616
-# 617
-# 618

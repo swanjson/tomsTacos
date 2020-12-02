@@ -18,7 +18,7 @@
         "cityState": "Los Angeles, CA (Palms)",
         "rating": "9.23/10",
         "ratingEval": 0.923,
-        "secondsToFinish": "98 seconds to finish",
+        "secondsToFinish": "null",
         "leftovers": "#tacos #tomeatingtacos #fish #longjohnsilvers #food #california"
     },
     {
@@ -31,17 +31,6 @@
         "ratingEval": 0.924,
         "secondsToFinish": "79 seconds to finish",
         "leftovers": "#tacos #tomeatingtacos #food"
-    },
-    {
-        "id": 3,
-        "post#": 618,
-        "tacoType": "Brisket Breakfast Taco",
-        "restaurant": "Aptos St",
-        "cityState": "BBQ",
-        "rating": "Aptos, CA",
-        "ratingEval": null,
-        "secondsToFinish": "8.6/10. 98 seconds to finish",
-        "leftovers": "#tacos #tomeatingtacos #bbq"
     },
     {
         "id": 4,
@@ -418,17 +407,6 @@
         "leftovers": "#tacos #tomeatingtacos #sunday #food"
     },
     {
-        "id": 38,
-        "post#": 583,
-        "tacoType": "Fish Taco",
-        "restaurant": "The Waterfront Venice (@thewaterfrontvenice)",
-        "cityState": "7/10",
-        "rating": "8.75/10",
-        "ratingEval": 0.875,
-        "secondsToFinish": "68 seconds to finish",
-        "leftovers": "#tacos #tomeatingtacos #sunday #food"
-    },
-    {
         "id": 39,
         "post#": 582,
         "tacoType": "Shrimp Taco",
@@ -689,17 +667,6 @@
         "cityState": "Countryside, IL",
         "rating": "6.3/10",
         "ratingEval": 0.63,
-        "secondsToFinish": "47 seconds to finish",
-        "leftovers": "#tacos #tomeatingtacos #kennys"
-    },
-    {
-        "id": 63,
-        "post#": 558,
-        "tacoType": "Breakfast Taco",
-        "restaurant": "The Wicked Hop",
-        "cityState": "Milwaukee, WI",
-        "rating": "57 seconds to finish 8.3/10",
-        "ratingEval": null,
         "secondsToFinish": "47 seconds to finish",
         "leftovers": "#tacos #tomeatingtacos #kennys"
     },
@@ -1045,17 +1012,6 @@
         "leftovers": "#tacos #tomeatingtacos #denver \nFeat. @quinningcollins @p.creature"
     },
     {
-        "id": 95,
-        "post#": 526,
-        "tacoType": "Cheesy Double Decker Taco",
-        "restaurant": "Taco Bell (@tacobelluk)",
-        "cityState": "8.1/10",
-        "rating": "8.4/10",
-        "ratingEval": 0.8400000000000001,
-        "secondsToFinish": "87 seconds to finish",
-        "leftovers": "#tacos #tomeatingtacos #denver \nFeat. @quinningcollins @p.creature"
-    },
-    {
         "id": 96,
         "post#": 525,
         "tacoType": "Duck Carnitas Taco",
@@ -1087,17 +1043,6 @@
         "ratingEval": 0.49000000000000005,
         "secondsToFinish": "54 seconds to finish",
         "leftovers": "#tacos #tomeatingtacos #london"
-    },
-    {
-        "id": 99,
-        "post#": 522,
-        "tacoType": "Pork Taco",
-        "restaurant": "Brennan’s Work & Leisure",
-        "cityState": "St",
-        "rating": "Louis, MO",
-        "ratingEval": null,
-        "secondsToFinish": "7.3/10. 45 seconds to finish",
-        "leftovers": "#tacos #tomeatingtacos \nFeat. @griffsgram42"
     },
     {
         "id": 100,
@@ -1149,17 +1094,6 @@
         "tacoType": "Barbacoa Taco",
         "restaurant": "Taco Joint (@eattacojoint)",
         "cityState": "Chicago, IL (Lincoln Park)",
-        "rating": "8.9/10",
-        "ratingEval": 0.89,
-        "secondsToFinish": "28 seconds to finish",
-        "leftovers": "#tacos #tomeatingtacos #chicago"
-    },
-    {
-        "id": 105,
-        "post#": 516,
-        "tacoType": "Bacon Cheeseburger Taco",
-        "restaurant": "Beat Kitchen (@pitchforkfest)",
-        "cityState": "8.3/10",
         "rating": "8.9/10",
         "ratingEval": 0.89,
         "secondsToFinish": "28 seconds to finish",
@@ -1329,17 +1263,6 @@
         "ratingEval": 0.9099999999999999,
         "secondsToFinish": "126 seconds to finish",
         "leftovers": "#tacos #tomeatingtacos #fathersday #chicago \nFeat. @p.creature"
-    },
-    {
-        "id": 121,
-        "post#": 500,
-        "tacoType": "SPECIAL 500th TACO VIDEO",
-        "restaurant": "Atotonilco Taco",
-        "cityState": "Taqueria Atotonilco",
-        "rating": "Chicago (Pilsen), IL",
-        "ratingEval": null,
-        "secondsToFinish": "9.36/10. 84 seconds to finish",
-        "leftovers": "#tacos #tomeatingtacos #chicago \nFeat. @callahankatie"
     },
     {
         "id": 122,
@@ -1650,17 +1573,6 @@
         "leftovers": "#tacos #tomeatingtacos #hat #day #hatday"
     },
     {
-        "id": 150,
-        "post#": 471,
-        "tacoType": "Al Pastor Quesotaco",
-        "restaurant": "Pablito’s Tacos (@pablitostacos)",
-        "cityState": "8.9/10",
-        "rating": "6.8999/10",
-        "ratingEval": 0.68999,
-        "secondsToFinish": "54 seconds to finish",
-        "leftovers": "#tacos #tomeatingtacos #hat #day #hatday"
-    },
-    {
         "id": 151,
         "post#": 470,
         "tacoType": "Texas Taco",
@@ -1743,17 +1655,6 @@
         "tacoType": "Taco de camarron",
         "restaurant": "Mariscos Jaliscos @mariscosjalisco",
         "cityState": "Boyle Heights, CA",
-        "rating": "9.46/10",
-        "ratingEval": 0.9460000000000001,
-        "secondsToFinish": "72 seconds to finish",
-        "leftovers": "#tacos #tomeatingtacos \nFeat. @lisavcallahan"
-    },
-    {
-        "id": 159,
-        "post#": 462,
-        "tacoType": "Breakfast Taco",
-        "restaurant": "Homemade by the Callahan’s! Playa Del Rey, CA",
-        "cityState": "9.34/10",
         "rating": "9.46/10",
         "ratingEval": 0.9460000000000001,
         "secondsToFinish": "72 seconds to finish",
@@ -2018,17 +1919,6 @@
         "tacoType": "Pulled Pork Taco",
         "restaurant": "Tom",
         "cityState": "Playa Del Rey, CA",
-        "rating": "8.92/10",
-        "ratingEval": 0.892,
-        "secondsToFinish": "38 seconds to finish",
-        "leftovers": "#tacos #tomeatingtacos"
-    },
-    {
-        "id": 184,
-        "post#": 437,
-        "tacoType": "Pork Taco",
-        "restaurant": "ALL THE WAY HOMEMADE BABY! Playa Del Rey, CA",
-        "cityState": "9.32/10",
         "rating": "8.92/10",
         "ratingEval": 0.892,
         "secondsToFinish": "38 seconds to finish",
@@ -2849,17 +2739,6 @@
         "leftovers": "#tacos #tomeatingtacos #la"
     },
     {
-        "id": 259,
-        "post#": 362,
-        "tacoType": "Dr",
-        "restaurant": "Pepper BBQ Pork Taco",
-        "cityState": "Crock Pot",
-        "rating": "Playa Del Rey, CA",
-        "ratingEval": null,
-        "secondsToFinish": "8.3/10. 31 seconds to finish",
-        "leftovers": "#tacos #tomeatingtacos"
-    },
-    {
         "id": 260,
         "post#": 361,
         "tacoType": "PBQ Pastor BBQ",
@@ -3146,17 +3025,6 @@
         "leftovers": "#tacos #tomeatingtacos #mexico"
     },
     {
-        "id": 286,
-        "post#": 335,
-        "tacoType": "Asada Taco",
-        "restaurant": "Tacos El Gordo @tacoselgordo_  Chula Vista, CA",
-        "cityState": "9.48/10",
-        "rating": "9.52/10",
-        "ratingEval": 0.952,
-        "secondsToFinish": "204 seconds to finish",
-        "leftovers": "#tacos #tomeatingtacos #mexico"
-    },
-    {
         "id": 287,
         "post#": 334,
         "tacoType": "Asada Taco",
@@ -3184,17 +3052,6 @@
         "tacoType": "Chicken Taco",
         "restaurant": "Tom",
         "cityState": "Playa Del Rey, CA",
-        "rating": "8.1/10",
-        "ratingEval": 0.8099999999999999,
-        "secondsToFinish": "37 seconds to finish",
-        "leftovers": "#tacos #tacotuesday #tomeatingtacos"
-    },
-    {
-        "id": 290,
-        "post#": 331,
-        "tacoType": "Breakfast Taco",
-        "restaurant": "Benny’s Tacos",
-        "cityState": "6/10",
         "rating": "8.1/10",
         "ratingEval": 0.8099999999999999,
         "secondsToFinish": "37 seconds to finish",
@@ -3663,17 +3520,6 @@
         "leftovers": "#tacos #tomeatingtacos @elflamintaco"
     },
     {
-        "id": 333,
-        "post#": 288,
-        "tacoType": "Tripas",
-        "restaurant": "Tacos Como En El D.F",
-        "cityState": "Taco Truck",
-        "rating": "Los Angeles, CA",
-        "ratingEval": null,
-        "secondsToFinish": "9.3/10. 18 seconds to finish",
-        "leftovers": "#tacos #tomeatingtacos #losangeles #lebron @tacoscomoeneldf"
-    },
-    {
         "id": 334,
         "post#": 287,
         "tacoType": "Mushroom Taco",
@@ -3745,17 +3591,6 @@
         "tacoType": "Tripas Taco",
         "restaurant": "Taco Dollar",
         "cityState": "Lennox,CA",
-        "rating": "9.28/10",
-        "ratingEval": 0.9279999999999999,
-        "secondsToFinish": "18 seconds to finish",
-        "leftovers": "#tacos #tomeatingtacos #food"
-    },
-    {
-        "id": 341,
-        "post#": 280,
-        "tacoType": "Chicken-Spanish Rice and Ranch Taco",
-        "restaurant": "Homemade by @hamsandwichgram",
-        "cityState": "Playa Del Rey, CA",
         "rating": "9.28/10",
         "ratingEval": 0.9279999999999999,
         "secondsToFinish": "18 seconds to finish",
@@ -3938,17 +3773,6 @@
         "leftovers": "#tacos #tomeatingtacos #food"
     },
     {
-        "id": 358,
-        "post#": 263,
-        "tacoType": "Rico’s Tacos El Tio",
-        "restaurant": "Inglewood, CA",
-        "cityState": "8.9/10",
-        "rating": "7.8/10",
-        "ratingEval": 0.78,
-        "secondsToFinish": "54 seconds to finish",
-        "leftovers": "#tacos #tomeatingtacos #food"
-    },
-    {
         "id": 359,
         "post#": 262,
         "tacoType": "Carne Molida Taco",
@@ -4088,7 +3912,7 @@
         "cityState": "Boyle Heights, CA",
         "rating": "9.6/10",
         "ratingEval": 0.96,
-        "secondsToFinish": "29 seconds to finish",
+        "secondsToFinish": "null",
         "leftovers": "#tacos #tomeatingtacos"
     },
     {
@@ -4378,17 +4202,6 @@
         "leftovers": "#tacos #tomeatingtacos \nFeat. @kingjames"
     },
     {
-        "id": 398,
-        "post#": 223,
-        "tacoType": "Carne Asada Taco",
-        "restaurant": "Homemade by me and @timolesnavage!Marina Del Rey, CA",
-        "cityState": "9.4/10",
-        "rating": "7.4/10",
-        "ratingEval": 0.74,
-        "secondsToFinish": "39 seconds to finish",
-        "leftovers": "#tacos #tomeatingtacos \nFeat. @kingjames"
-    },
-    {
         "id": 399,
         "post#": 222,
         "tacoType": "Baja Chipotle style Achiote Chicken Taco",
@@ -4449,17 +4262,6 @@
         "tacoType": "Carne Asada Taco",
         "restaurant": "Super Cuca’s Taqueria",
         "cityState": "Santa Barbara, CA",
-        "rating": "8.3/10",
-        "ratingEval": 0.8300000000000001,
-        "secondsToFinish": "42 seconds to finish",
-        "leftovers": "#tacos #tomeatingtacos #food"
-    },
-    {
-        "id": 405,
-        "post#": 216,
-        "tacoType": "Beef Taco",
-        "restaurant": "Los Tacos",
-        "cityState": "West Hollywood, CA 7.2/10",
         "rating": "8.3/10",
         "ratingEval": 0.8300000000000001,
         "secondsToFinish": "42 seconds to finish",
@@ -4702,17 +4504,6 @@
         "tacoType": "Chorizo Taco",
         "restaurant": "Mar Vista Street Guys",
         "cityState": "Mar Vista, CA",
-        "rating": "9.52/10",
-        "ratingEval": 0.952,
-        "secondsToFinish": "17 seconds to finish",
-        "leftovers": "#tacos #tomeatingtacos"
-    },
-    {
-        "id": 428,
-        "post#": 193,
-        "tacoType": "Shout out to @duhrew and @imperialdigitalmarketing for making this Behind The Scenes footage of a typical taco encounter \n10/10 video",
-        "restaurant": "60 seconds to finish #tacos #tacotuesday #mArketing #tomeatingtacos",
-        "cityState": "",
         "rating": "9.52/10",
         "ratingEval": 0.952,
         "secondsToFinish": "17 seconds to finish",
@@ -5302,17 +5093,6 @@
         "leftovers": "#tacos #nyc #tomeatingtacos"
     },
     {
-        "id": 482,
-        "post#": 139,
-        "tacoType": "Queso shell, Carne Asada Taco",
-        "restaurant": "Los Tacos No",
-        "cityState": "1",
-        "rating": "New York, NY. 9.7/10",
-        "ratingEval": null,
-        "secondsToFinish": "46 seconds to finish",
-        "leftovers": "#tacos #nyc @lostacos1 #tomeatingtacos"
-    },
-    {
         "id": 483,
         "post#": 138,
         "tacoType": "Bigolgi Taco",
@@ -5654,17 +5434,6 @@
         "leftovers": "#tacos #tomeatingtacos"
     },
     {
-        "id": 514,
-        "post#": 107,
-        "tacoType": "Asada Taco",
-        "restaurant": "Beverly Hills Farmers' Market",
-        "cityState": "7.9/10",
-        "rating": "8.9/10",
-        "ratingEval": 0.89,
-        "secondsToFinish": "29 seconds to finish",
-        "leftovers": "#tacos #tomeatingtacos"
-    },
-    {
         "id": 515,
         "post#": 106,
         "tacoType": "Asada Taco",
@@ -5749,18 +5518,7 @@
         "cityState": "Mar Vista, CA",
         "rating": "9.4/10",
         "ratingEval": 0.9400000000000001,
-        "secondsToFinish": "9seconds to finish",
-        "leftovers": "#tacos #tomeatingtacos"
-    },
-    {
-        "id": 523,
-        "post#": 98,
-        "tacoType": "Shrimp Taco",
-        "restaurant": "Reel Inn, Malibu, CA",
-        "cityState": "7.7/10",
-        "rating": "9.4/10",
-        "ratingEval": 0.9400000000000001,
-        "secondsToFinish": "9seconds to finish",
+        "secondsToFinish": "null",
         "leftovers": "#tacos #tomeatingtacos"
     },
     {
@@ -5857,17 +5615,6 @@
         "tacoType": "Gringo Taco",
         "restaurant": "Pinches Tacos",
         "cityState": "Westwood, CA",
-        "rating": "9/10",
-        "ratingEval": 0.9,
-        "secondsToFinish": "40 seconds to finish",
-        "leftovers": "#tacos #tomeatingtacos"
-    },
-    {
-        "id": 533,
-        "post#": 88,
-        "tacoType": "Carnitas Taco",
-        "restaurant": "8.7/10",
-        "cityState": "Hermosa Beach, CA",
         "rating": "9/10",
         "ratingEval": 0.9,
         "secondsToFinish": "40 seconds to finish",
@@ -6061,17 +5808,6 @@
         "leftovers": "#tacos #tomeatingtacos"
     },
     {
-        "id": 551,
-        "post#": 70,
-        "tacoType": "Asada Tacos",
-        "restaurant": "Judie's Tacos",
-        "cityState": "Dead & Company concert",
-        "rating": "Mountain View, CA",
-        "ratingEval": null,
-        "secondsToFinish": "9.3/10. 8 seconds to finish",
-        "leftovers": "#tacos #tomeatingtacos"
-    },
-    {
         "id": 552,
         "post#": 69,
         "tacoType": "Al Pastor Taco",
@@ -6237,17 +5973,6 @@
         "leftovers": "#tacos #tomeatingtacos"
     },
     {
-        "id": 567,
-        "post#": 54,
-        "tacoType": "Lots of videos went out yesterday! Too lazy to watch them all? Check out this shorter video with some highlights #latacofest #tacos",
-        "restaurant": "",
-        "cityState": "",
-        "rating": "8.1/10",
-        "ratingEval": 0.8099999999999999,
-        "secondsToFinish": "57 seconds to finish",
-        "leftovers": "#tacos #tomeatingtacos"
-    },
-    {
         "id": 568,
         "post#": 53,
         "tacoType": "Reuban taco",
@@ -6292,17 +6017,6 @@
         "leftovers": "#latacofest #tacos #tomeatingtacos"
     },
     {
-        "id": 572,
-        "post#": 49,
-        "tacoType": "Beef taco",
-        "restaurant": "Chicken taco",
-        "cityState": "Japan Food Truck",
-        "rating": "Hollywood, CA. 7.7/10",
-        "ratingEval": null,
-        "secondsToFinish": "22 seconds to finish",
-        "leftovers": "#latacofest #tacos #tomeatingtacos"
-    },
-    {
         "id": 573,
         "post#": 48,
         "tacoType": "Brisket taco",
@@ -6310,28 +6024,6 @@
         "cityState": "Hollywood, CA",
         "rating": "8.3/10",
         "ratingEval": 0.8300000000000001,
-        "secondsToFinish": "6 seconds to finish",
-        "leftovers": "#latacofest #tacos #tomeatingtacos"
-    },
-    {
-        "id": 574,
-        "post#": 47,
-        "tacoType": "Shrimp taco",
-        "restaurant": "Chicken taco",
-        "cityState": "Phantom Food Struck",
-        "rating": "Hollywood, CA. 5/10",
-        "ratingEval": null,
-        "secondsToFinish": "6 seconds to finish",
-        "leftovers": "#latacofest #tacos #tomeatingtacos"
-    },
-    {
-        "id": 575,
-        "post#": 46,
-        "tacoType": "More taco highlights! So pumped for LA Taco Fest this Saturday! Been training for so long - Lots of videos to come! #tacos #🌮 #tomeatingtacos",
-        "restaurant": "",
-        "cityState": "",
-        "rating": "Hollywood, CA. 5/10",
-        "ratingEval": null,
         "secondsToFinish": "6 seconds to finish",
         "leftovers": "#latacofest #tacos #tomeatingtacos"
     },
@@ -6374,17 +6066,6 @@
         "tacoType": "Chicken Taco",
         "restaurant": "Don Antonio's",
         "cityState": "West Los Angeles, CA",
-        "rating": "8.7/10",
-        "ratingEval": 0.8699999999999999,
-        "secondsToFinish": "54 seconds to finish",
-        "leftovers": "#tacos \nIf you like the hat I'm wearing, check out @tacogear - they've got dope stuff! #tacogear #tomeatingtacos"
-    },
-    {
-        "id": 580,
-        "post#": 41,
-        "tacoType": "Steak Taco",
-        "restaurant": "Coachella Food Stand",
-        "cityState": "8.2/10",
         "rating": "8.7/10",
         "ratingEval": 0.8699999999999999,
         "secondsToFinish": "54 seconds to finish",
@@ -6662,29 +6343,7 @@
         "cityState": "East Austin, TX",
         "rating": "9.1/10",
         "ratingEval": 0.9099999999999999,
-        "secondsToFinish": "and 9.7/10 respectively. 183 seconds to finish",
-        "leftovers": "#tomeatingtacos"
-    },
-    {
-        "id": 606,
-        "post#": 15,
-        "tacoType": "2 Bistek Tacos",
-        "restaurant": "La Sirena",
-        "cityState": "Rainey St",
-        "rating": "Austin, TX",
-        "ratingEval": null,
-        "secondsToFinish": "6.9/10. 163 seconds to finish",
-        "leftovers": "#tomeatingtacos"
-    },
-    {
-        "id": 607,
-        "post#": 14,
-        "tacoType": "Taco don Chago (bacon, avocado, beans)",
-        "restaurant": "Puebla Viejo",
-        "cityState": "East Austin, TX",
-        "rating": "Austin, TX",
-        "ratingEval": null,
-        "secondsToFinish": "6.9/10. 163 seconds to finish",
+        "secondsToFinish": "null",
         "leftovers": "#tomeatingtacos"
     },
     {
@@ -6695,7 +6354,7 @@
         "cityState": "UT- Austin",
         "rating": "9.4/10",
         "ratingEval": 0.9400000000000001,
-        "secondsToFinish": "6.9/10. 163 seconds to finish",
+        "secondsToFinish": "null",
         "leftovers": "#tomeatingtacos"
     },
     {
@@ -6706,7 +6365,7 @@
         "cityState": "UT-Austin",
         "rating": "8.9/10",
         "ratingEval": 0.89,
-        "secondsToFinish": "6.9/10. 163 seconds to finish",
+        "secondsToFinish": "null",
         "leftovers": "#tomeatingtacos"
     },
     {
@@ -6717,7 +6376,7 @@
         "cityState": "SoCo, Austin, TX",
         "rating": "9.2/10",
         "ratingEval": 0.9199999999999999,
-        "secondsToFinish": "6.9/10. 163 seconds to finish",
+        "secondsToFinish": "null",
         "leftovers": "#tomeatingtacos"
     },
     {
@@ -6728,7 +6387,7 @@
         "cityState": "East Austin, TX",
         "rating": "9.8/10",
         "ratingEval": 0.9800000000000001,
-        "secondsToFinish": "6.9/10. 163 seconds to finish",
+        "secondsToFinish": "null",
         "leftovers": "#tomeatingtacos"
     },
     {
@@ -6739,7 +6398,7 @@
         "cityState": "Downtown Austin, TX",
         "rating": "8.5/10",
         "ratingEval": 0.85,
-        "secondsToFinish": "6.9/10. 163 seconds to finish",
+        "secondsToFinish": "null",
         "leftovers": "#tomeatingtacos"
     },
     {
@@ -6750,7 +6409,7 @@
         "cityState": "West Los Angeles",
         "rating": "5.3/10",
         "ratingEval": 0.53,
-        "secondsToFinish": "6.9/10. 163 seconds to finish",
+        "secondsToFinish": "null",
         "leftovers": "#tomeatingtacos"
     },
     {
@@ -6761,7 +6420,7 @@
         "cityState": "Westwood, Los Angeles",
         "rating": "6.7/10",
         "ratingEval": 0.67,
-        "secondsToFinish": "6.9/10. 163 seconds to finish",
+        "secondsToFinish": "null",
         "leftovers": "#tomeatingtacos"
     },
     {
@@ -6772,7 +6431,7 @@
         "cityState": "Westwood, Los Angeles",
         "rating": "9/10",
         "ratingEval": 0.9,
-        "secondsToFinish": "6.9/10. 163 seconds to finish",
+        "secondsToFinish": "null",
         "leftovers": "#tomeatingtacos"
     },
     {
@@ -6783,7 +6442,7 @@
         "cityState": "Palms, Los Angeles",
         "rating": "8.7/10",
         "ratingEval": 0.8699999999999999,
-        "secondsToFinish": "6.9/10. 163 seconds to finish",
+        "secondsToFinish": "null",
         "leftovers": "#tomeatingtacos"
     },
     {
@@ -6794,7 +6453,7 @@
         "cityState": "Redondo Beach, Los Angeles",
         "rating": "9/10",
         "ratingEval": 0.9,
-        "secondsToFinish": "6.9/10. 163 seconds to finish",
+        "secondsToFinish": "null",
         "leftovers": "#tomeatingtacos"
     },
     {
@@ -6805,29 +6464,7 @@
         "cityState": "Mid City, Los Angeles",
         "rating": "7.9/10",
         "ratingEval": 0.79,
-        "secondsToFinish": "6.9/10. 163 seconds to finish",
-        "leftovers": "#tomeatingtacos"
-    },
-    {
-        "id": 619,
-        "post#": 2,
-        "tacoType": "Pancake style Taco",
-        "restaurant": "IHOP , Palms, Los Angeles",
-        "cityState": "6/10 #tomeatingtacos",
-        "rating": "7.9/10",
-        "ratingEval": 0.79,
-        "secondsToFinish": "6.9/10. 163 seconds to finish",
-        "leftovers": "#tomeatingtacos"
-    },
-    {
-        "id": 620,
-        "post#": 1,
-        "tacoType": "Steak Taco",
-        "restaurant": "Lucy's Drive Thru - Westlake, Los Angeles",
-        "cityState": "7.6/10 #tacos #tomeatingtacos",
-        "rating": "7.9/10",
-        "ratingEval": 0.79,
-        "secondsToFinish": "6.9/10. 163 seconds to finish",
+        "secondsToFinish": "null",
         "leftovers": "#tomeatingtacos"
     }
 ]

@@ -1,0 +1,202 @@
+[
+    {
+        "id": 3,
+        "failingReason": "There is a space in the rating"
+    },
+    {
+        "id": 3,
+        "failingReason": "There's no 10 in the rating"
+    },
+    {
+        "id": 38,
+        "failingReason": "rating is not correct"
+    },
+    {
+        "id": 63,
+        "failingReason": "There is a space in the rating"
+    },
+    {
+        "id": 63,
+        "failingReason": "length of rating is over 10"
+    },
+    {
+        "id": 95,
+        "failingReason": "rating is not correct"
+    },
+    {
+        "id": 99,
+        "failingReason": "There is a space in the rating"
+    },
+    {
+        "id": 99,
+        "failingReason": "There's no 10 in the rating"
+    },
+    {
+        "id": 105,
+        "failingReason": "rating is not correct"
+    },
+    {
+        "id": 121,
+        "failingReason": "There is a space in the rating"
+    },
+    {
+        "id": 121,
+        "failingReason": "length of rating is over 10"
+    },
+    {
+        "id": 150,
+        "failingReason": "rating is not correct"
+    },
+    {
+        "id": 159,
+        "failingReason": "rating is not correct"
+    },
+    {
+        "id": 184,
+        "failingReason": "rating is not correct"
+    },
+    {
+        "id": 259,
+        "failingReason": "There is a space in the rating"
+    },
+    {
+        "id": 259,
+        "failingReason": "length of rating is over 10"
+    },
+    {
+        "id": 286,
+        "failingReason": "rating is not correct"
+    },
+    {
+        "id": 290,
+        "failingReason": "rating is not correct"
+    },
+    {
+        "id": 333,
+        "failingReason": "There is a space in the rating"
+    },
+    {
+        "id": 333,
+        "failingReason": "length of rating is over 10"
+    },
+    {
+        "id": 341,
+        "failingReason": "rating is not correct"
+    },
+    {
+        "id": 358,
+        "failingReason": "rating is not correct"
+    },
+    {
+        "id": 398,
+        "failingReason": "rating is not correct"
+    },
+    {
+        "id": 405,
+        "failingReason": "rating is not correct"
+    },
+    {
+        "id": 428,
+        "failingReason": "rating, cityState, restaurant, or tacoType is blank"
+    },
+    {
+        "id": 428,
+        "failingReason": "rating is not correct"
+    },
+    {
+        "id": 482,
+        "failingReason": "There is a space in the rating"
+    },
+    {
+        "id": 482,
+        "failingReason": "length of rating is over 10"
+    },
+    {
+        "id": 514,
+        "failingReason": "rating is not correct"
+    },
+    {
+        "id": 523,
+        "failingReason": "rating is not correct"
+    },
+    {
+        "id": 533,
+        "failingReason": "rating is not correct"
+    },
+    {
+        "id": 551,
+        "failingReason": "There is a space in the rating"
+    },
+    {
+        "id": 551,
+        "failingReason": "length of rating is over 10"
+    },
+    {
+        "id": 567,
+        "failingReason": "rating, cityState, restaurant, or tacoType is blank"
+    },
+    {
+        "id": 567,
+        "failingReason": "rating is not correct"
+    },
+    {
+        "id": 572,
+        "failingReason": "There is a space in the rating"
+    },
+    {
+        "id": 572,
+        "failingReason": "length of rating is over 10"
+    },
+    {
+        "id": 574,
+        "failingReason": "There is a space in the rating"
+    },
+    {
+        "id": 574,
+        "failingReason": "length of rating is over 10"
+    },
+    {
+        "id": 575,
+        "failingReason": "rating, cityState, restaurant, or tacoType is blank"
+    },
+    {
+        "id": 575,
+        "failingReason": "There is a space in the rating"
+    },
+    {
+        "id": 575,
+        "failingReason": "length of rating is over 10"
+    },
+    {
+        "id": 575,
+        "failingReason": "rating is not correct"
+    },
+    {
+        "id": 580,
+        "failingReason": "rating is not correct"
+    },
+    {
+        "id": 606,
+        "failingReason": "There is a space in the rating"
+    },
+    {
+        "id": 606,
+        "failingReason": "length of rating is over 10"
+    },
+    {
+        "id": 607,
+        "failingReason": "There is a space in the rating"
+    },
+    {
+        "id": 607,
+        "failingReason": "length of rating is over 10"
+    },
+    {
+        "id": 619,
+        "failingReason": "rating is not correct"
+    },
+    {
+        "id": 620,
+        "failingReason": "rating is not correct"
+    }
+]
